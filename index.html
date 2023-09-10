@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Muh Haikal</title>
+</head>
+
+<body>
+
+  <header>
+    <a href="#" class="logo">Dccal.</a>
+    <nav class="navigation">
+      <a href="#">About</a>
+      <a href="#skills">skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="main">
+    <div>
+      <h2>Hello, I'm Andi Muh Haikal s.kom<br>
+        <span>Front-End Developer</span>
+        <h3>About Me</h3>
+        <p>im from makassar,south sulawesi</p>
+        <p>I’m currently study at Hasanuddin University</p>
+        <p>I’m currently learning Front End dev.</p>
+        <br>
+        <a href="#projects" class="main-btn">View my work</a>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:andimuhhaikal79@gmail.com"><i class="fas fa-envelope"></i></a>
+          <a href="https://instagram.com/dccal_?igshid=NzZlODBkYWE4Ng=="><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@dccal/featured"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+  </section>
+
+  <section class="cards" id="skills">
+    <h2 class="title">Skills</h2>
+    <div class="content">
+      <div class="card">
+        <div class="icon">
+          <i class="fab fa-html5"></i>
+        </div>
+        <div class="info">
+          <h3>HTML & CSS</h3>
+          <p>Intermediate</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <i class="fab fa-js"></i>
+        </div>
+        <div class="info">
+          <h3>Javascript</h3>
+          <p>Beginner</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <i class="fab fa-python"></i>
+        </div>
+        <div class="info">
+          <h3>Python</h3>
+          <p>Expert</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <i class="fab fa-java"></i>
+        </div>
+        <div class="info">
+          <h3>Java</h3>
+          <p>Expert</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="projects" id="projects">
+    <h2 class="title" style="color: white;">Projects</h2>
+    <div class="content">
+      <div class="project-card">
+        <div class="project-image">
+          <img src="images/work1.jpg" alt="Chat GUI" />
+        </div>
+        <div class="project-info">
+          <p class="project-category">Chat GUI</p>
+          <strong class="project-title">
+            <span>This is a simple chat application consisting of a client and a server. The application is built using
+              Python and communicates over TCP socket connections.</span>
+            <a href="https://github.com/itsdccal/Chat-Gui-python" class="more-details">More details</a>
+          </strong>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-image">
+          <img src="images/work2.jpg" alt="Calorie Tracker" />
+        </div>
+        <div class="project-info">
+          <p class="project-category">Calorie Tracker</p>
+          <strong class="project-title">
+            <span>The JavaFX-based Calorie Tracker application is a user-friendly software designed to help individuals
+              monitor and manage their daily calorie intake.</span>
+            <a href="https://github.com/aansyawaludddin/Projek-OOP-Semester2" class="more-details">More details</a>
+          </strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="contact" id="contact">
+    <h2 class="title">Let's connect</h2>
+    <div class="content">
+      <form action="mailto:andimuhhaikal79@gmail.com" method="POST" enctype="text/plain">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" placeholder="Subject" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Send Email</button>
+        </div>
+      </form>
+    </div>
+  </section>  
+
+  <footer class="footer">
+    <p class="footer-title">Copyrights&copy;<span>Andi Muh Haikal</span></p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com/dccal_?igshid=NzZlODBkYWE4Ng=="><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
